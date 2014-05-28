@@ -4,6 +4,10 @@ require_relative 'pokedex'
 
 pokedex = Pokedex.new
 
+get '/' do
+  redirect to('/pokemons')
+end
+
 get '/pokemons' do
   content_type :json
   pokedex.all.to_json

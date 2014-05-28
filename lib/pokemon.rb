@@ -12,7 +12,7 @@ class Pokemon
 
   def to_json(opts={})
     <<-JSON
-      { "name": "#{@name}", "type": "#{@type}", "number": "#{@number}"}
+      { "name": "#{@name}", "type": "#{@type}", "number": #{@number}}
     JSON
   end
 

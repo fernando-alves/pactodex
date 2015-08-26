@@ -19,7 +19,8 @@ class Pokedex
     bubassaur  = Pokemon.new('Bulbassaur', 'grass', 1)
     charmander = Pokemon.new('Charmander', 'fire', 4)
     squirtle  = Pokemon.new('Squirtle', 'water', 7)
-    [bubassaur, charmander, squirtle]
+    ratata  = Pokemon.new('Ratata', 'normal', 17)
+    [bubassaur, charmander, squirtle, ratata]
   end
 
 end
